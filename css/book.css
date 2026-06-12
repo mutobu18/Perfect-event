@@ -1,0 +1,47 @@
+/* BOOK PAGE */
+.book-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.book-section h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* FORM */
+.book-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    gap: 15px;
+}
+
+/* INPUTS */
+.book-form input,
+.book-form select,
+.book-form textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.6);
+    outline: none;
+    font-size: 16px;
+}
+
+/* BUTTON */
+.book-form button {
+    padding: 12px;
+    background: rgb(238, 82, 189);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.book-form button:hover {
+    background: black;
+}

@@ -1,0 +1,178 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('/images/flower5.jpg');
+    background-size: cover;
+     
+    background-position: center;
+    color: black;
+}
+
+
+#header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(255, 255, 255, 0.497);
+    border-radius: 75px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+    
+}
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.814);
+    margin-top: 20px;
+}
+
+/* NAV */
+#nav-buttons ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#nav-buttons ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#nav-buttons ul li a:hover {
+    color: black;
+}
+
+
+
+
+#nav-buttons ul li a.active {
+    color: white;
+    background: rgb(238, 82, 189);
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.book-btn {
+    border: 1px solid rgba(73, 69, 3, 0.5);
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.book-btn:hover {
+    background: white;
+    color: black;
+}
+
+
+#hero {
+    display: flex;
+    height: 90vh;
+}
+
+
+.hero-left {
+    flex: 1;
+    background-color:rgba(255, 255, 255, 0.013);
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 75px;
+    margin: 20px;
+    border: 1px solid white;
+}
+
+
+.hero-left h4 {
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero-left
+.hero-left p {
+    margin-top: 20px;
+    font-size: 18px;
+    color:black;
+    max-width: 400px;
+}
+
+/* BUTTON */
+.main-btn {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background: white;
+    color: black;
+    width: fit-content;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    background: #f2f2f2;
+}
+
+
+.hero-right {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+    align-items: center;
+}
+
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.image-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+
+.image-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.description-image {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+}
